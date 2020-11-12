@@ -20,14 +20,13 @@ Object.keys(utils).forEach(val => {
 // // 封装localstorage
 // import storage from './utils/localstorage'
 // window._storage = storage
-// 导入主应用ui库
 
 
 Vue.config.productionTip = false
-import ElementUI from 'element-ui';
-import 'element-ui/lib/theme-chalk/index.css';
+// import ElementUI from 'element-ui';
+// import 'element-ui/lib/theme-chalk/index.css';
 
-Vue.use(ElementUI);
+// Vue.use(ElementUI);
 
 
 window.a = 1000;

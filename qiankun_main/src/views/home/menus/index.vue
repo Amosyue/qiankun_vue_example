@@ -2,7 +2,6 @@
   <div class="menuList">
     <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect"
       background-color="#545c64" text-color="#fff" active-text-color="#ffd04b">
-      <el-menu-item index="1">处理中心</el-menu-item>
       <el-submenu index="2">
         <template slot="title">主项目</template>
         <el-menu-item index="/about">关于我们</el-menu-item>
@@ -10,9 +9,15 @@
       </el-submenu>
       <el-submenu index="3">
         <template slot="title">子项目1</template>
-        <el-menu-item index="/qiankun_child1">子项目1home页</el-menu-item>
-        <el-menu-item index="/qiankun_child1/about">子项目1关于我们</el-menu-item>
-        <el-menu-item index="/qiankun_child1/list">子项目1列表</el-menu-item>
+        <el-menu-item index="/qiankun_child1">子项目1__home页</el-menu-item>
+        <el-menu-item index="/qiankun_child1/about">子项目1__关于我们</el-menu-item>
+        <el-menu-item index="/qiankun_child1/list">子项目1__列表</el-menu-item>
+      </el-submenu>
+      <el-submenu index="4">
+        <template slot="title">子项目2</template>
+        <el-menu-item index="/qiankun_child2">子项目2__home页</el-menu-item>
+        <el-menu-item index="/qiankun_child2/about">子项目2__关于我们</el-menu-item>
+        <el-menu-item index="/qiankun_child2/list">子项目2__列表</el-menu-item>
       </el-submenu>
       <el-menu-item index="4" style="text-align:right;float:right">当前用户：{{userName}}</el-menu-item>
     </el-menu>

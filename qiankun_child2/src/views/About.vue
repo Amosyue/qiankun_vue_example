@@ -1,8 +1,6 @@
 <template>
   <div class="about">
-    <h1>我是qiankun_child1页面---成绩总和：{{code}}</h1>
-    <div class="btn" @click="addCode">计算成功总和</div>
-
+    about2about2about2
   </div>
 </template>
 
